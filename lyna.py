@@ -23,7 +23,7 @@ Your options are **boys**, **girls**, **nonbinary**, and **genderfluid**. You ca
 @client.event
 async def on_ready():
     logging.info('We have logged in as {0.user}'.format(client))
-    activity = discord.Activity(name='over newcomers', type=discord.ActivityType.listening)
+    activity = discord.Activity(name='for the sound of trouble', type=discord.ActivityType.listening)
     await client.change_presence(activity=activity)
 
 @client.event
