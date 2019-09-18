@@ -38,7 +38,7 @@ async def on_member_update(prev_user, user):
             try:
                 channel = client.get_channel(welcome_channel)
                 message = welcome_message.format(
-                    user, client.get_channel(rules_channel), moderator_role)
+                    user, rules_channel, moderator_role)
 
                 await channel.send(message)
                 logging.info('Welcomed {0.name} successfully.'.format(user))
