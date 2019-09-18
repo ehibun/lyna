@@ -1,0 +1,4 @@
+{
+    "python.pythonPath": "bot-env/bin/python3",
+    "python.linting.enabled": true
+}
