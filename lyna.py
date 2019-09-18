@@ -11,7 +11,7 @@ new_member_role = int(os.environ.get('NEW_MEMBER_ROLE'))
 moderator_role = int(os.environ.get('MODERATOR_ROLE'))
 
 welcome_channel = int(os.environ.get('WELCOME_CHANNEL'))
-rules_channel = os.environ.get('RULES_CHANNEL')
+rules_channel = int(os.environ.get('RULES_CHANNEL'))
 
 welcome_message = """:sparkles: **Welcome to {0.guild.name}, {0.mention}!** :sparkles:
 
