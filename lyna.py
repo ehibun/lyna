@@ -15,7 +15,7 @@ rules_channel = os.environ.get('RULES_CHANNEL')
 
 welcome_message = """:sparkles: **Welcome to {0.guild.name}, {0.mention}!** :sparkles:
 
-**Please read through <#{1}> before continuing.** Once you're done, please let one of the <@&{2.id}> know your gender in order to get access to the full server.
+**Please read through <#{1}> before continuing.** Once you're done, please let one of the <@&{2}> know your gender in order to get access to the full server.
 
 Your options are **boys**, **girls**, **nonbinary**, and **genderfluid**. You can also specify that you're **trans** on top of the other roles to get access to the transgender-specific rooms.
 """
