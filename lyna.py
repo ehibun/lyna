@@ -58,4 +58,12 @@ async def on_member_update(prev_user, user):
                 logging.error('Something unknown has gone wrong.')
                 return
 
+@client.event
+async def on_message(message):
+    if message.author == client.user:
+        return
+
+    if message.content.startswith('l?ping'):
+        await message.channel.send('Pong!')
+
 client.run(token)
