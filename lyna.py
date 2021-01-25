@@ -17,9 +17,11 @@ rules_channel = int(os.environ.get('RULES_CHANNEL'))
 
 welcome_message = """:sparkles: **Welcome to {0.guild.name}, {0.mention}!** :sparkles:
 
-**Please read through <#{1}> before continuing.** Once you're done, please let a <@&{2}> know your gender, either in this channel or via DM, in order to access the rest of the server.
+**Please read through <#{1}> before continuing.** Once you're done, please let us know your gender in order to access the rest of the server. You can do this by posting in this channel, or by sending a DM to a <@&{2}> if you would prefer.
 
-Your options are **boys**, **girls**, **nonbinary**, and **genderfluid**. You can also specify that you're **trans** on top of the other roles to get access to the transgender-specific rooms.
+We support a wide variety of gender roles for you to choose from - the most common are **boys**, **girls**, and **nonbinary**, and you can see a full list by typing `?roles` into this channel. You can pick more than one if you prefer, and you can also specify that you're **trans** on top of any other gender identities to get access to transgender-specific rooms.
+
+Once you have access to the server, you can choose your own roles to display your pronouns, sexuality, and so on.
 """
 
 
